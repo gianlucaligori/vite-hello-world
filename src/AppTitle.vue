@@ -10,10 +10,13 @@ export default {
 </script>
 
 <template>
-<h1>La mia prima app con Vite</h1>
+<h1 class="titolone">La mia prima app con Vite</h1>
 <AppHero/>
 </template>
 
 <style scoped>
 
+.titolone {
+  margin-top: 3rem ;
+}
 </style> 
